@@ -1,0 +1,8 @@
+# 开启的选项
+enable: ['moji']
+
+hostname: 0.0.0.0
+
+port: 8080
+
+defaultCity: 广州
