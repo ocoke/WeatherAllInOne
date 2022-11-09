@@ -1,3 +1,4 @@
+// Weather.com is unavaliable now.
 const puppeteer = require('puppeteer');
 const getWeatherComCN = async () => {
     var data = {};

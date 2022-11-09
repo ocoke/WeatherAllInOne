@@ -1,5 +1,5 @@
 # 开启的选项
-enable: ['moji']
+enable: ['weather_com_cn', 'moji']
 
 hostname: 0.0.0.0
 
