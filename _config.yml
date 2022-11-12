@@ -1,6 +1,8 @@
 # 开启的选项
 enable: ['weather_com_cn', 'moji']
 
+key: 
+
 hostname: 0.0.0.0
 
 port: 8080
