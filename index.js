@@ -99,7 +99,7 @@ const serve = async (req, res) => {
         return true;
     }
     if (req.url.startsWith("/api/7d")) {
-        var city = getCity(decodeURIComponent(param("/api/7d")).city, param("/api/7d").format);
+        var city = getCity(decodeURIComponent(param("/api/7d").city), param("/api/7d").format);
         let data;
         if (CONFIG.enable[0] == "moji") {
             data = await getMoji7days(city.name);
@@ -111,7 +111,7 @@ const serve = async (req, res) => {
     }
     if (req.url.startsWith("/api/geo")) {
         // 城市地理数据 包含城市编号 英文 中文
-        var city = getCity(decodeURIComponent(param("/api/geo")).city, param("/api/geo").format);
+        var city = getCity(decodeURIComponent(param("/api/geo").city), param("/api/geo").format);
         returnRes(200, (city));
         return true;
     }
